@@ -1,6 +1,6 @@
 FROM almalinux:8
 RUN yum install nginx -y
-ENV AUTHOR="Hari" \
+ENV AUTHOR="Aadarsh" \
       INSTRUCTION="Label" \
       OS="Almalinux" 
 CMD ["nginx","-g","daemon off;"]
